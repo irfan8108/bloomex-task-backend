@@ -50,6 +50,13 @@ class TaskController extends Controller
             'title' => 'required|max:50',
             'status' => 'required'
         ]);
+
+        if ($validator->fails()) {
+            return response()->json([
+                'status' => false,
+                'message' => $validator->errors()
+            ]);
+        }
         
         $task->update([
             'title' => $request->title,
