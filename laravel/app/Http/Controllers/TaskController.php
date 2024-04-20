@@ -24,7 +24,7 @@ class TaskController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'title' => 'required|max:50'
+            'title' => 'required|max:150'
         ]);
 
         if ($validator->fails()) {
@@ -47,7 +47,7 @@ class TaskController extends Controller
     public function update(Request $request, Task $task)
     {
         $validator = Validator::make($request->all(), [
-            'title' => 'required|max:50',
+            'title' => 'required|max:150',
             'status' => 'required'
         ]);
 
