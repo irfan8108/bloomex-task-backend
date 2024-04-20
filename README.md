@@ -21,7 +21,7 @@ Using Docker
 		- docker-compose build --no-cache
   #### Initialize and Execute Docker Container
 		- docker-compose up
-		- docker exec -it [ContainerName] bash
+		- docker exec -it [ContainerName OR Id] bash
   #### Create Laravel Project using Composer
 		- composer create-project --prefer-dist laravel/laravel .
   #### Create Laravel Model, API Route & Resource Controller
