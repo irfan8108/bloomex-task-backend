@@ -9,8 +9,9 @@ I believe development must be an enjoyable and creative experience to be truly f
 ## Quick Links
 
 - [API Documentation](https://documenter.getpostman.com/view/2611803/2sA3BoZrF3)
+- [Frontend/Git](https://github.com/irfan8108/bloomex-task-frontend.git)
+- [App](http://amiss.in/bloomex)
 - [Backend](http://54.253.70.47:8000/public)
-- [Frontend](http://amiss.in/bloomex)
 
 ### Working from Scratch
 
