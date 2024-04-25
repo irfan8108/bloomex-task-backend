@@ -11,7 +11,8 @@ I believe development must be an enjoyable and creative experience to be truly f
 - [API Documentation](https://documenter.getpostman.com/view/2611803/2sA3BoZrF3)
 - [Frontend/Git](https://github.com/irfan8108/bloomex-task-frontend.git)
 - [App](http://amiss.in/bloomex)
-- [Backend](http://54.253.70.47:8000/public)
+- [Backend/ApiHost](http://54.253.133.209:8000/public)
+- [Redmine](http://54.253.133.209:8080/projects/bloomex)
 
 ### Working from Scratch
 
